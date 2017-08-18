@@ -1,0 +1,16 @@
+
+<p>
+    <textarea id="bar">Mussum ipsum cacilds...</textarea>
+</p>
+<p>
+    <button class="btn" data-clipboard-target="#bar">
+        Copy to clipboard
+    </button>
+</p>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+<script>
+  new Clipboard('.btn');
+</script>
